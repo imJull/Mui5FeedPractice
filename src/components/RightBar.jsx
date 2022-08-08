@@ -1,7 +1,11 @@
-import { Avatar, Box, Typography, AvatarGroup, ImageList, ImageListItem, Divider, ListItemAvatar, ListItemText, List, ListItem } from "@mui/material";
+import { Avatar, Box, Typography, AvatarGroup, ImageList, ImageListItem, Divider, ListItemAvatar, ListItemText, List, ListItem, styled } from "@mui/material";
 import React from "react";
 
 const RightBar = () => {
+
+  const styledRightBard = styled(List)({
+    overflow: "scroll"
+  })
   return (
     <Box  
       flex={2} 
